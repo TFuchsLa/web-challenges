@@ -1,0 +1,12 @@
+@import "./theme.css";
+@import "./header.css";
+@import "./main.css";
+@import "./card.css";
+/* -------------------------------------------------------- */
+/* Global Styles */
+/* -------------------------------------------------------- */
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
