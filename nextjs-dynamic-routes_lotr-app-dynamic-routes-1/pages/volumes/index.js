@@ -24,7 +24,9 @@ export default function Volumes() {
           </li>
         ))}
       </ul>
-      <button onClick={handleRandomVolume}>Go to a Random Volume</button>
+      <button onClick={handleRandomVolume} type="button">
+        Go to a Random Volume
+      </button>
     </>
   );
 }
