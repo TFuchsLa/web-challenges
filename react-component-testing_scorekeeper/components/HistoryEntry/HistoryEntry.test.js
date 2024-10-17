@@ -1,6 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import HistoryEntry from ".";
+import HistoryEntry from "./HistoryEntry"; // Stelle sicher, dass der Importpfad korrekt ist
+
 test("renders name of game and 'display more' button only", () => {
   render(
     <HistoryEntry
