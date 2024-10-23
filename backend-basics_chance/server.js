@@ -16,6 +16,5 @@ export const server = createServer((req, res) => {
 
   // Setze den Statuscode und sende die Antwort
   res.statusCode = 200;
-  res.setHeader("Content-Type", "text/plain");
   res.end(responseMessage);
 });
